@@ -124,7 +124,7 @@ class Source(Base):
         self.min_pattern_length = 0
         self.nvim = nvim
         self.name = 'clang2'
-        self.mark = '[clang]'
+        self.mark = '[clang2]'
         self.rank = 500
         self.bad_flags = []
         self.clang_flags = {}
